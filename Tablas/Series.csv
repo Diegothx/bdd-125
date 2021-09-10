@@ -1,4 +1,4 @@
 ﻿id;titulos;anho;puntuacion;calificacion;generos;subgeneros
-1;Supernatural ;2005;8;"	TV-14";"	Fantasía; acción, drama sobrenatural; misterio; aventura";
-2;31 minutos;2003;9.4;"	TV-12";"Telecomedia; Parodia; Sátira";
-3;steins gate;2009;9.1;"	TV-14";" Sci-Fi; Psychological; Drama; Thriller";
+1;Supernatural ;2005;8;"	TV-14";"	Fantasía, acción, drama sobrenatural, misterio,aventura";
+2;31 minutos;2003;9.4;"	TV-12";Telecomedia, Parodia, Sátira;
+3;steins gate;2009;9.1;"	TV-14"; Sci-Fi, Psychological, Drama, Thriller;
