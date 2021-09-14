@@ -1,0 +1,7 @@
+﻿id,id_proveedor,id_usuario,plataforma,fecha_compra,Estado
+1,1,2,,1/2/2020,inactivo
+2,1,3,,10/2/2020,activo
+3,2,1,,2/3/2021,inactivo
+4,2,1,,10/5/2021,activo
+5,3,1,,5/2/2020,activo
+6,3,2,,10/4/2021,activo
