@@ -1,6 +1,9 @@
 ﻿id;titulo;puntuacion;clasificacion;duracion;anho
-1;Interestelar;8.3;No recomendado menores de 7 años;169;2014
-2;Mononoke Hime;8.9; No recomendado menores de 7 años;134;1997
-3;Toki wo kakeru shoujo;8.2; Todos los públicos;98;2006
-4;Spider-Man: Into the Spider-Verse;8.4; No recomendada menores de 7 años;117;2018
-5; Treasure Planet;8.2;Todos los públicos;95;2002
+1;Interestelar;8.3;"	
+PG-13";169;2014
+2;Mononoke Hime;8.9;"	
+PG";134;1997
+3;Toki wo kakeru shoujo;8.2;G;98;2006
+4;Spider-Man: Into the Spider-Verse;8.4;"	
+PG";117;2018
+5; Treasure Planet;8.2;G;95;2002
