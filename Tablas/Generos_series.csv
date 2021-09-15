@@ -1,7 +1,7 @@
 ﻿Genero;id_serie
 Fantasía;1
 Accion;1
-Drama sobrenatural;1
+Sobrenatural;1
 Misterio;1
 Aventura;1
 Telecomedia;2
@@ -10,3 +10,4 @@ Satira;2
 Sci-fi;3
 Drama;3
 Thriller;3
+Drama;1
