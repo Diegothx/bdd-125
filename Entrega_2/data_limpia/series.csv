@@ -1,32 +1,32 @@
-id,clasificacion,puntuacion,nombre
-1,R,8.0,Sex Education
-2,PG,9.5,Friends
-3,PG,10.0,Jojo's Bizarre Adventure
-4,PG-13,9.8,Naruto Shippuden
-5,PG-13,9.9,Dark
-6,G,10.0,31 minutos
-7,PG-13,8.0,La Casa de Papel
-8,R,5.8,Élite
-9,PG-13,9.5,The Crown
-10,G,8.6,My Hero Academia
-11,R,8.3,13 reasons why
-12,G,10.0,Haikyuu!!
-13,PG-13,4.3,Riverdale
-14,G,7.5,Hunter x Hunter
-15,PG-13,9.2,Atypical
-16,R,9.3,Dr. House
-17,R,8.7,Grey's Anatomy
-18,G,9.4,Hora de aventura
-19,PG-13,8.5,Supernatural
-20,G,6.4,Supergirl
-21,PG-13,9.1,Los Simpsons
-22,PG,8.6,Peaky Blinders
-23,PG,8.3,Rick y Morty
-24,PG-13,9.8,Ataque a los titanes
-25,PG,8.6,Full Metal Alchemist Brotherhood
-26,G,7.9,Avatar: la leyenda de Aang
-27,PG-13,9.2,The Vampire Diaries
-28,PG-13,8.0,Gossip Girl
-29,PG-13,9.2,Sherlock
-30,G,9.0,Doctor Who
-31,NC-17,7.4,Scream
+id,nombre,clasificacion,puntuacion,año
+1,Sex Education,R,8.0,2019
+2,Friends,PG,9.5,1994
+3,Jojo's Bizarre Adventure,PG,10.0,2012
+4,Naruto Shippuden,PG-13,9.8,2007
+5,Dark,PG-13,9.9,2017
+6,31 minutos,G,10.0,2003
+7,La Casa de Papel,PG-13,8.0,2017
+8,Élite,R,5.8,2018
+9,The Crown,PG-13,9.5,2016
+10,My Hero Academia,G,8.6,2015
+11,13 reasons why,R,8.3,2017
+12,Haikyuu!!,G,10.0,2014
+13,Riverdale,PG-13,4.3,2017
+14,Hunter x Hunter,G,7.5,2011
+15,Atypical,PG-13,9.2,2017
+16,Dr. House,R,9.3,2004
+17,Grey's Anatomy,R,8.7,2005
+18,Hora de aventura,G,9.4,2010
+19,Supernatural,PG-13,8.5,2005
+20,Supergirl,G,6.4,2015
+21,Los Simpsons,PG-13,9.1,1989
+22,Peaky Blinders,PG,8.6,2013
+23,Rick y Morty,PG,8.3,2013
+24,Ataque a los titanes,PG-13,9.8,2010
+25,Full Metal Alchemist Brotherhood,PG,8.6,2003
+26,Avatar: la leyenda de Aang,G,7.9,2005
+27,The Vampire Diaries,PG-13,9.2,2009
+28,Gossip Girl,PG-13,8.0,2007
+29,Sherlock,PG-13,9.2,2010
+30,Doctor Who,G,9.0,2005
+31,Scream,NC-17,7.4,2015
