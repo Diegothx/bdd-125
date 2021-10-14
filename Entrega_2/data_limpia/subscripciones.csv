@@ -1,4 +1,4 @@
-id,estado,fecha_inicio,pro_id,uid
+id,estado,fecha_inicio,id_proveedor,id_usuario
 1,cancelada,2021-06-08,8,29
 2,activa,2020-09-27,16,48
 3,activa,2020-09-21,20,48

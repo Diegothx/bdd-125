@@ -1,4 +1,4 @@
-id,serie_id,titulo,duracion,numero,serie
+id,id_serie,titulo,duracion,numero_temporada,serie
 1,1,Episode 1,62,1,Sex Education
 2,1,Episode 2,66,1,Sex Education
 3,1,Episode 3,59,1,Sex Education

@@ -1,4 +1,4 @@
-uid,pid,fecha
+id_usuario,id_pelicula,fecha
 1,85,2021-07-26
 1,83,2021-08-18
 1,74,2021-09-13
