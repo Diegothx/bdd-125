@@ -1,0 +1,53 @@
+CREATE TABLE usuario(id serial PRIMARY KEY, nombre VARCHAR NOT NULL, mail VARCHAR NOT NULL, password VARCHAR NOT NULL, username VARCHAR NOT NULL);
+\COPY usuario(id,nombre,mail,password,username) FROM 'Entrega2/tablas_normalizadas/usuarios.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE serie(id serial PRIMARY KEY, clasificacion VARCHAR(10), puntuacion FLOAT, anho INT, nombre VARCHAR NOT NULL); 
+\COPY serie(id,clasificacion,puntuacion,anho,nombre) FROM 'Entrega2/tablas_normalizadas/series.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE Pelicula(id serial PRIMARY KEY,  titulo VARCHAR, duracion INT, clasificacion VARCHAR(10), puntuacion FLOAT, anho INT);
+\COPY pelicula(id,titulo,duracion,clasificacion,puntuacion,anho) FROM 'Entrega2/tablas_normalizadas/peliculas.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE proveedor(id serial PRIMARY KEY, nombre VARCHAR, costo INT);
+\COPY proveedor(id,nombre,costo) FROM 'Entrega2/tablas_normalizadas/proveedores.csv' DELIMITER ',' CSV HEADER;
+ 
+CREATE TABLE pelicula_arriendo(id_proveedor INT, id_pelicula INT, precio INT, duracion_arriendo INT, FOREIGN KEY (id_proveedor) REFERENCES proveedor(id), FOREIGN KEY (id_pelicula)  REFERENCES pelicula(id));
+\COPY pelicula_arriendo(id_proveedor,id_pelicula,precio,duracion_arriendo) FROM 'Entrega2/tablas_normalizadas/pelicula_arriendo.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE serie_proveedor(id_proveedor INT, id_serie INT, FOREIGN KEY (id_proveedor) REFERENCES proveedor(id), FOREIGN KEY (id_serie)  REFERENCES serie(id));
+\COPY serie_proveedor(id_proveedor,id_serie) FROM 'Entrega2/tablas_normalizadas/serie_proveedor.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE capitulo(id serial PRIMARY KEY, id_serie INT, titulo VARCHAR,duracion VARCHAR, numero_temporada INT, FOREIGN KEY (id_serie) REFERENCES serie(id));
+\COPY capitulo(id,id_serie,titulo,duracion,numero_temporada) FROM 'Entrega2/tablas_normalizadas/capitulos.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE genero(genero VARCHAR PRIMARY KEY);
+\COPY genero FROM 'Entrega2/tablas_normalizadas/generos.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE genero_subgenero(genero VARCHAR, nombre_subgenero VARCHAR, FOREIGN KEY (genero) REFERENCES genero(genero), FOREIGN KEY (nombre_subgenero) REFERENCES genero(genero));
+\COPY genero_subgenero(genero,nombre_subgenero) FROM 'Entrega2/tablas_normalizadas/genero_subgenero.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE serie_genero(id_serie INT, genero VARCHAR, FOREIGN KEY (genero) REFERENCES genero(genero),FOREIGN KEY (id_serie) REFERENCES serie(id));
+\COPY serie_genero(id_serie,genero) FROM 'Entrega2/tablas_normalizadas/series_genero.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE pelicula_genero(id_pelicula INT, genero VARCHAR, FOREIGN KEY (genero) REFERENCES genero(genero),FOREIGN KEY (id_pelicula) REFERENCES pelicula(id));
+\COPY pelicula_genero(id_pelicula,genero) FROM 'Entrega2/tablas_normalizadas/peliculas_genero.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE subscripcion(id serial PRIMARY KEY, id_usuario INT, id_proveedor INT, fecha_inicio DATE, estado VARCHAR(15), FOREIGN KEY (id_proveedor) REFERENCES proveedor(id),FOREIGN KEY (id_usuario) REFERENCES usuario(id));
+\COPY subscripcion(id,estado,fecha_inicio,id_proveedor,id_usuario) FROM 'Entrega2/tablas_normalizadas/subscripciones.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE subscripcion_cancelada(fecha_termino DATE)INHERITS (subscripcion);
+\COPY subscripcion_cancelada(id,estado,fecha_inicio,id_proveedor,id_usuario,fecha_termino) FROM 'Entrega2/tablas_normalizadas/subscripciones_canceladas.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE pago_arriendo(id_usuario INT, id_pelicula INT,id_proveedor INT, fecha DATE, FOREIGN KEY (id_pelicula) REFERENCES pelicula(id), FOREIGN KEY (id_proveedor) REFERENCES proveedor(id),FOREIGN KEY (id_usuario) REFERENCES usuario(id));
+\COPY pago_arriendo(fecha,id_usuario,id_pelicula,id_proveedor) FROM 'Entrega2/tablas_normalizadas/pagos_arriendos.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE pago_subscripcion(id serial PRIMARY KEY, id_subscripcion INT, fecha DATE, FOREIGN KEY (id_subscripcion) REFERENCES subscripcion(id));
+\COPY pago_subscripcion(id,fecha,id_subscripcion) FROM 'Entrega2/tablas_normalizadas/pagos_subscripciones.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE visualizacion_pelicula(id_pelicula INT,id_usuario INT, fecha DATE, FOREIGN KEY (id_pelicula) REFERENCES pelicula(id), FOREIGN KEY (id_usuario) REFERENCES usuario(id));
+\COPY visualizacion_pelicula(id_usuario,id_pelicula,fecha) FROM 'Entrega2/tablas_normalizadas/visualizaciones_peliculas.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE visualizacion_capitulo(id_capitulo INT,id_usuario INT, fecha DATE, FOREIGN KEY (id_capitulo) REFERENCES capitulo(id), FOREIGN KEY (id_usuario) REFERENCES usuario(id));
+\COPY visualizacion_capitulo(id_usuario,id_capitulo,fecha) FROM 'Entrega2/tablas_normalizadas/visualizaciones_capitulos.csv' DELIMITER ',' CSV HEADER;
+
+CREATE TABLE pelicula_proveedor(id_proveedor INT,id_pelicula INT, FOREIGN KEY (id_pelicula) REFERENCES pelicula(id), FOREIGN KEY (id_proveedor) REFERENCES proveedor(id));
+\COPY pelicula_proveedor(id_proveedor,id_pelicula) FROM 'Entrega2/tablas_normalizadas/pelicula_proveedor.csv' DELIMITER ',' CSV HEADER;

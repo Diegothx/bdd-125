@@ -1,158 +1,158 @@
-id,id_serie,titulo,duracion,numero_temporada,serie
-1,1,Episode 1,62,1,Sex Education
-2,1,Episode 2,66,1,Sex Education
-3,1,Episode 3,59,1,Sex Education
-4,1,Episode 4,65,1,Sex Education
-5,1,Episode 5,64,1,Sex Education
-6,2,En el que todo empieza,22,1,Friends
-7,2,El de la ecografía final,20,1,Friends
-8,2,El del pulgar,21,1,Friends
-9,2,El de George Stephanopoulos,23,1,Friends
-10,2,El del detergente de lavandería germano-oriental,22,1,Friends
-11,2,El de la nueva novia de Ross,25,2,Friends
-12,2,El de la leche materna,22,2,Friends
-13,2,El de cuando muere Heckles,23,2,Friends
-14,2,El esposo de Phoebe,24,2,Friends
-15,2,El de la carne para cinco y una berenjena,26,2,Friends
-16,2,El de la fantasía de la Princesa Leia,25,3,Friends
-17,2,El de cuando nadie está listo,22,3,Friends
-18,2,El de la mermelada,24,3,Friends
-19,2,El del túnel metafórico,22,3,Friends
-20,2,El de Frank Jr.,26,3,Friends
-21,2,El de la medusa,22,4,Friends
-22,2,El de la gata,26,4,Friends
-23,2,El de las esposas,24,4,Friends
-24,2,El de los bailes de salón,24,4,Friends
-25,2,El de la nueva novia de Joey,26,4,Friends
-26,2,El de después de que Ross dijera el nombre de Rachel,22,5,Friends
-27,2,El de los besos,24,5,Friends
-28,2,El de los trillizos,24,5,Friends
-29,2,El que Phoebe odia la PBS,26,5,Friends
-30,2,El de los Kips,22,5,Friends
-31,3,Dio: el invasor,23,1,Jojo's Bizarre Adventure
-32,3,Una carta del pasado,23,1,Jojo's Bizarre Adventure
-33,3,Juventud con dio,23,1,Jojo's Bizarre Adventure
-34,3,Overdrive,23,1,Jojo's Bizarre Adventure
-35,3,Los caballeros oscuros,23,1,Jojo's Bizarre Adventure
-36,3,El jojo de nueva york,23,2,Jojo's Bizarre Adventure
-37,3,El maestro del juego,23,2,Jojo's Bizarre Adventure
-38,3,El hombre del pilar,23,2,Jojo's Bizarre Adventure
-39,3,Jojo vs. la forma de vida definitiva,23,2,Jojo's Bizarre Adventure
-40,3,Los guerreros definitivos de tiempos antiguos,23,2,Jojo's Bizarre Adventure
-41,3,un hombre poseído por un espíritu maligno,23,3,Jojo's Bizarre Adventure
-42,3,¡¿quién será el juez?!,23,3,Jojo's Bizarre Adventure
-43,3,La maldición de dio,23,3,Jojo's Bizarre Adventure
-44,3,Tower of gray,23,3,Jojo's Bizarre Adventure
-45,3,Silver Chariot,23,3,Jojo's Bizarre Adventure
-46,3,¡Jotaro Kujo! Conoce a Josuke Higashikata,23,4,Jojo's Bizarre Adventure
-47,3,¡Josuke Higashikata! Conoce a Angelo,23,4,Jojo's Bizarre Adventure
-48,3,Los Hermanos Nijimura (Parte 1),23,4,Jojo's Bizarre Adventure
-49,3,Los Hermanos Nijimura (Parte 2),23,4,Jojo's Bizarre Adventure
-50,3,Los Hermanos Nijimura (Parte 3),23,4,Jojo's Bizarre Adventure
-51,4,El regreso a casa,22,1,Naruto Shippuden
-52,4,El Akatsuki comienza a moverse,20,1,Naruto Shippuden
-53,4,El nuevo objetivo,22,2,Naruto Shippuden
-54,4,¡Formación: el nuevo equipo Kakashi!,20,2,Naruto Shippuden
-55,4,Pesadilla,21,3,Naruto Shippuden
-56,4,Viento,20,3,Naruto Shippuden
-57,4,La amenaza que se acerca en silencio,20,4,Naruto Shippuden
-58,4,La invasión de Akatsuki,21,4,Naruto Shippuden
-59,4,El precio del poder,20,5,Naruto Shippuden
-60,4,Un asunto shinobi,21,5,Naruto Shippuden
-61,4,La pupila de la serpiente,20,6,Naruto Shippuden
-62,4,Ojo de halcón,20,6,Naruto Shippuden
-63,4,El viajero,20,7,Naruto Shippuden
-64,4,El sucesor de la técnica prohibida,22,7,Naruto Shippuden
-65,1,Episode 1,62,2,Sex Education
-66,1,Episode 2,66,2,Sex Education
-67,1,Episode 3,59,2,Sex Education
-68,1,Episode 4,65,2,Sex Education
-69,1,Episode 5,64,2,Sex Education
-70,5,Secretos,51,1,Dark
-71,5,Mentiras,44,1,Dark
-72,5,Principios y finales,53,2,Dark
-73,5,Materia oscura,54,2,Dark
-74,5,Deja vu,60,3,Dark
-75,5,Los sobrevivientes,59,3,Dark
-76,6,El comienzo,29,1,31 minutos
-77,6,El arbol furioso,31,1,31 minutos
-78,6,Vacaciones,34,2,31 minutos
-79,6,Relox,32,2,31 minutos
-80,6,Por el sr. manguera,28,3,31 minutos
-81,6,La maquina del tiempo,31,3,31 minutos
-82,6,La mona lisa,32,4,31 minutos
-83,6,Cirugía,32,4,31 minutos
-84,7,Efectuar lo acordado,50,1,La Casa de Papel
-85,7,Se acabaron las máscaras,50,2,La Casa de Papel
-86,7,Hemos vuelto,50,3,La Casa de Papel
-87,8,Bienvenidos,60,1,Élite
-88,8,20 horas desaparecido,55,2,Élite
-89,8,Carla,58,3,Élite
-90,9,Wolferton Splash,62,1,The Crown
-91,9,Misadventure,60,2,The Crown
-92,9,Olding,58,3,The Crown
-93,10,Midoriya Izuku: Origen,24,1,My Hero Academia
-94,10,Libreta de héroes,24,2,My Hero Academia
-95,10,Empieza el juego,24,3,My Hero Academia
-96,11,Casete 1: lado A,60,1,13 reasons why
-97,11,La primera polaroid,62,2,13 reasons why
-98,11,Si: soy la chica nueva,56,3,13 reasons why
-99,12,El fin y el comienzo,20,1,Haikyuu!!
-100,12,¡Vamos a Tokyo!,22,2,Haikyuu!!
-101,12,Saludos,21,3,Haikyuu!!
-102,13,Capítulo 1: Corrientes traicioneras,55,1,Riverdale
-103,13,Capítulo 14: Un beso antes de morir,60,2,Riverdale
-104,13,Capítulo 36: Día del Trabajo,62,3,Riverdale
-105,14,Partida x Y x Compañeros,24,1,Hunter x Hunter
-106,14,Un x Guardián x Peligroso,24,2,Hunter x Hunter
-107,14,Respuesta de papa,24,3,Hunter x Hunter
-108,15,Antártida,60,1,Atypical
-109,15,Empapada,62,2,Atypical
-110,15,Los mejores planes,59,3,Atypical
-111,16,Piloto,43,1,Dr. House
-112,16,Aceptación,42,2,Dr. House
-113,16,Sentido,44,3,Dr. House
-114,17,La noche de un día difícil,40,1,Grey's Anatomy
-115,17,Gotas de lluvia sobre mi cabeza,42,2,Grey's Anatomy
-116,17,Llegó el momento,45,3,Grey's Anatomy
-117,18,Panico en la fiesta del palacio,21,1,Hora de aventura
-118,18,Llegó de la Nocheósfera,21,2,Hora de aventura
-119,18,El recuerdo de un recuerdo,21,3,Hora de aventura
-120,19,Wendigo,55,1,Supernatural
-121,19,En mi tiempo de morir,50,2,Supernatural
-122,19,Los siete magníficos,58,3,Supernatural
-123,20,Más fuertes juntos,35,1,Supergirl
-124,20,Las aventuras de Supergirl,40,2,Supergirl
-125,20,La mujer de acero,42,3,Supergirl
-126,21,Simpsons Roasting on an Open Fire,20,1,Los Simpsons
-127,21,"Bart Gets an ""F""",20,2,Los Simpsons
-128,21,Stark Raving Dad,20,3,Los Simpsons
-129,22,Episode 1,40,1,Peaky Blinders
-130,22,Episode 1,42,2,Peaky Blinders
-131,22,Episode 1,41,3,Peaky Blinders
-132,23,Pilot,22,1,Rick y Morty
-133,23,A Rickle in Time,22,2,Rick y Morty
-134,23,The Rickshank Rickdemption,22,3,Rick y Morty
-135,24,A ti: 2.000 años en el futuro,23,1,Ataque a los titanes
-136,24,El titán bestia,23,2,Ataque a los titanes
-137,24,Señal de humo,23,3,Ataque a los titanes
-138,25,El alquimista de acero,23,1,Full Metal Alchemist Brotherhood
-139,25,Los que acechan bajo tierra,23,2,Full Metal Alchemist Brotherhood
-140,25,Interludio,23,3,Full Metal Alchemist Brotherhood
-141,26,El niño en el iceberg,24,1,Avatar: la leyenda de Aang
-142,26,El estado avatar,24,2,Avatar: la leyenda de Aang
-143,26,El despertar,24,3,Avatar: la leyenda de Aang
-144,27,Pilot,49,1,The Vampire Diaries
-145,27,The Return,49,2,The Vampire Diaries
-146,27,The Birthday,49,3,The Vampire Diaries
-147,28,Pilot,40,1,Gossip Girl
-148,28,Verano: una especie de maravilla,42,2,Gossip Girl
-149,28,Los contratiempos de la Fortuna,45,3,Gossip Girl
-150,29,Estudio en rosa,60,1,Sherlock
-151,29,Escándalo en Belgravia,60,2,Sherlock
-152,29,Many Happy Returns,60,3,Sherlock
-153,30,Rose,45,1,Doctor Who
-154,30,Nueva tierra,46,2,Doctor Who
-155,30,Smith y Jones,45,2,Doctor Who
-156,31,Exposed,44,1,Scream
-157,31,Psycho,45,2,Scream
+id,serie_id,titulo,duracion,numero_temporada 
+1,1,Episode 1,62,1
+2,1,Episode 2,66,1
+3,1,Episode 3,59,1
+4,1,Episode 4,65,1
+5,1,Episode 5,64,1
+6,2,En el que todo empieza,22,1
+7,2,El de la ecografía final,20,1
+8,2,El del pulgar,21,1
+9,2,El de George Stephanopoulos,23,1
+10,2,El del detergente de lavandería germano-oriental,22,1
+11,2,El de la nueva novia de Ross,25,2
+12,2,El de la leche materna,22,2
+13,2,El de cuando muere Heckles,23,2
+14,2,El esposo de Phoebe,24,2
+15,2,El de la carne para cinco y una berenjena,26,2
+16,2,El de la fantasía de la Princesa Leia,25,3
+17,2,El de cuando nadie está listo,22,3
+18,2,El de la mermelada,24,3
+19,2,El del túnel metafórico,22,3
+20,2,El de Frank Jr.,26,3
+21,2,El de la medusa,22,4
+22,2,El de la gata,26,4
+23,2,El de las esposas,24,4
+24,2,El de los bailes de salón,24,4
+25,2,El de la nueva novia de Joey,26,4
+26,2,El de después de que Ross dijera el nombre de Rachel,22,5
+27,2,El de los besos,24,5
+28,2,El de los trillizos,24,5
+29,2,El que Phoebe odia la PBS,26,5
+30,2,El de los Kips,22,5
+31,3,Dio: el invasor,23,1
+32,3,Una carta del pasado,23,1
+33,3,Juventud con dio,23,1
+34,3,Overdrive,23,1
+35,3,Los caballeros oscuros,23,1
+36,3,El jojo de nueva york,23,2
+37,3,El maestro del juego,23,2
+38,3,El hombre del pilar,23,2
+39,3,Jojo vs. la forma de vida definitiva,23,2
+40,3,Los guerreros definitivos de tiempos antiguos,23,2
+41,3,un hombre poseído por un espíritu maligno,23,3
+42,3,¡¿quién será el juez?!,23,3
+43,3,La maldición de dio,23,3
+44,3,Tower of gray,23,3
+45,3,Silver Chariot,23,3
+46,3,¡Jotaro Kujo! Conoce a Josuke Higashikata,23,4
+47,3,¡Josuke Higashikata! Conoce a Angelo,23,4
+48,3,Los Hermanos Nijimura (Parte 1),23,4
+49,3,Los Hermanos Nijimura (Parte 2),23,4
+50,3,Los Hermanos Nijimura (Parte 3),23,4
+51,4,El regreso a casa,22,1
+52,4,El Akatsuki comienza a moverse,20,1
+53,4,El nuevo objetivo,22,2
+54,4,¡Formación: el nuevo equipo Kakashi!,20,2
+55,4,Pesadilla,21,3
+56,4,Viento,20,3
+57,4,La amenaza que se acerca en silencio,20,4
+58,4,La invasión de Akatsuki,21,4
+59,4,El precio del poder,20,5
+60,4,Un asunto shinobi,21,5
+61,4,La pupila de la serpiente,20,6
+62,4,Ojo de halcón,20,6
+63,4,El viajero,20,7
+64,4,El sucesor de la técnica prohibida,22,7
+65,1,Episode 1,62,2
+66,1,Episode 2,66,2
+67,1,Episode 3,59,2
+68,1,Episode 4,65,2
+69,1,Episode 5,64,2
+70,5,Secretos,51,1
+71,5,Mentiras,44,1
+72,5,Principios y finales,53,2
+73,5,Materia oscura,54,2
+74,5,Deja vu,60,3
+75,5,Los sobrevivientes,59,3
+76,6,El comienzo,29,1
+77,6,El arbol furioso,31,1
+78,6,Vacaciones,34,2
+79,6,Relox,32,2
+80,6,Por el sr. manguera,28,3
+81,6,La maquina del tiempo,31,3
+82,6,La mona lisa,32,4
+83,6,Cirugía,32,4
+84,7,Efectuar lo acordado,50,1
+85,7,Se acabaron las máscaras,50,2
+86,7,Hemos vuelto,50,3
+87,8,Bienvenidos,60,1
+88,8,20 horas desaparecido,55,2
+89,8,Carla,58,3
+90,9,Wolferton Splash,62,1
+91,9,Misadventure,60,2
+92,9,Olding,58,3
+93,10,Midoriya Izuku: Origen,24,1
+94,10,Libreta de héroes,24,2
+95,10,Empieza el juego,24,3
+96,11,Casete 1: lado A,60,1
+97,11,La primera polaroid,62,2
+98,11,Si: soy la chica nueva,56,3
+99,12,El fin y el comienzo,20,1
+100,12,¡Vamos a Tokyo!,22,2
+101,12,Saludos,21,3
+102,13,Capítulo 1: Corrientes traicioneras,55,1
+103,13,Capítulo 14: Un beso antes de morir,60,2
+104,13,Capítulo 36: Día del Trabajo,62,3
+105,14,Partida x Y x Compañeros,24,1
+106,14,Un x Guardián x Peligroso,24,2
+107,14,Respuesta de papa,24,3
+108,15,Antártida,60,1
+109,15,Empapada,62,2
+110,15,Los mejores planes,59,3
+111,16,Piloto,43,1
+112,16,Aceptación,42,2
+113,16,Sentido,44,3
+114,17,La noche de un día difícil,40,1
+115,17,Gotas de lluvia sobre mi cabeza,42,2
+116,17,Llegó el momento,45,3
+117,18,Panico en la fiesta del palacio,21,1
+118,18,Llegó de la Nocheósfera,21,2
+119,18,El recuerdo de un recuerdo,21,3
+120,19,Wendigo,55,1
+121,19,En mi tiempo de morir,50,2
+122,19,Los siete magníficos,58,3
+123,20,Más fuertes juntos,35,1
+124,20,Las aventuras de Supergirl,40,2
+125,20,La mujer de acero,42,3
+126,21,Simpsons Roasting on an Open Fire,20,1
+127,21,"Bart Gets an ""F""",20,2
+128,21,Stark Raving Dad,20,3
+129,22,Episode 1,40,1
+130,22,Episode 1,42,2
+131,22,Episode 1,41,3
+132,23,Pilot,22,1
+133,23,A Rickle in Time,22,2
+134,23,The Rickshank Rickdemption,22,3
+135,24,A ti: 2.000 años en el futuro,23,1
+136,24,El titán bestia,23,2
+137,24,Señal de humo,23,3
+138,25,El alquimista de acero,23,1
+139,25,Los que acechan bajo tierra,23,2
+140,25,Interludio,23,3
+141,26,El niño en el iceberg,24,1
+142,26,El estado avatar,24,2
+143,26,El despertar,24,3
+144,27,Pilot,49,1
+145,27,The Return,49,2
+146,27,The Birthday,49,3
+147,28,Pilot,40,1
+148,28,Verano: una especie de maravilla,42,2
+149,28,Los contratiempos de la Fortuna,45,3
+150,29,Estudio en rosa,60,1
+151,29,Escándalo en Belgravia,60,2
+152,29,Many Happy Returns,60,3
+153,30,Rose,45,1
+154,30,Nueva tierra,46,2
+155,30,Smith y Jones,45,2
+156,31,Exposed,44,1
+157,31,Psycho,45,2
