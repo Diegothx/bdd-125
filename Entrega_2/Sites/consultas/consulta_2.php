@@ -5,12 +5,18 @@
   #Llama a conexión, crea el objeto PDO y obtiene la variable $db
   require("../config/conexion.php");
 
-  $n_temporadas = $_POST["n_temporadas"];
+  $n_temporadas = (int)$_POST["n_temporadas"];
 
- 	$query = "SELECT serie.id, serie.nombre , count(capitulo.titulo) as n_temporadas_serie
+ 	$query = "WITH serie_temporada as (
+            SELECT serie.id, serie.nombre , MAX(capitulo.numero_temporada) as n_temporadas_serie
             FROM serie, capitulo 
-            where serie.id = capitulo.serie_id  
-            GROUP BY serie.id ;";
+            where serie.id = capitulo.id_serie  
+            GROUP BY serie.id, serie.nombre)
+            SELECT *
+            FROM serie_temporada
+            WHERE serie_temporada.n_temporadas_serie >= $n_temporadas
+            
+            ;";
 	$result = $db -> prepare($query);
 	$result -> execute();
 	$pokemones = $result -> fetchAll();

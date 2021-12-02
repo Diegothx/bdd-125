@@ -10,13 +10,13 @@
   $query = "SELECT pelicula.id, titulo, clasificacion, puntuacion, anho
   FROM pelicula, pelicula_genero
   WHERE pelicula.id = pelicula_genero.id_pelicula 
-  AND pelicula_genero.genero = 'Ciencia ficción apocalíptica'
+  AND pelicula_genero.genero = '$var'
   UNION
   SELECT pelicula.id, titulo, clasificacion, puntuacion, anho
   FROM pelicula, pelicula_genero, genero_subgenero
   WHERE pelicula.id = pelicula_genero.id_pelicula 
   AND pelicula_genero.genero = genero_subgenero.nombre_subgenero
-  AND genero_subgenero.genero = 'Ciencia ficción apocalíptica';";
+  AND genero_subgenero.genero = '$var';";
   $result = $db -> prepare($query);
   $result -> execute();
   $dataCollected = $result -> fetchAll(); #Obtiene todos los resultados de la consulta en forma de un arreglo
