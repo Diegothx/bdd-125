@@ -1,23 +1,23 @@
 CREATE OR REPLACE FUNCTION
 
 -- declaramos la función y sus argumentos
-pwassword_impar ()
+password_impar ()
 
 -- declaramos lo que retorna
-RETURNS ovid AS $$
+RETURNS void AS $$
 
 -- declaramos las variables a utilizar si es que es necesario
 DECLARE
 tupla RECORD;
-random integer;
+random RECORD;
 
 -- definimos nuestra función
 BEGIN
 
-    FOR tupla IN (SELECT * FROM usuarios  AS f(id int, nombre varchar, mail varchar, password varchar, 
-    username varchar)) LOOP
-        random := SELECT FLOOR(RAND()*100000000+1000); -- numero random entre 4 y 8 digitos
-        UPDATE usuarios SET password = random WHERE id = tupla.id; -- actualizar la contraseña
+    FOR tupla IN (SELECT * FROM usuario) -- AS f(id int, nombre varchar, mail varchar, passwords varchar, username varchar)) 
+    LOOP
+        SELECT INTO random FLOOR(RANDOM()*100000000+1000) AS rnd; -- numero random entre 4 y 8 digitos
+        UPDATE usuario SET password = random.rnd WHERE id = tupla.id; -- actualizar la contraseña
     END LOOP;
 
 
