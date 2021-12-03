@@ -3,6 +3,7 @@
 $username = $password  = $mail = "";
 ?>
 <?php include('../templates/header.html');   ?>
+<?php require("../config/conexion.php");?>
 <body>
     <div class="wrapper justify-content-center">
         <h2>Registrarse</h2>
@@ -20,7 +21,7 @@ $username = $password  = $mail = "";
                 <input type="password" name="password" class="form-control">
             </div>
             <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
+                <input action="SELECT registrar_usuario()" type="submit" class="btn btn-primary" value="Submit">
             </div>
             <p>Ya tienes una cuenta? <a href="login.php">Iniciar sesion</a>.</p>
         </form>

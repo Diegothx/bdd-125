@@ -4,6 +4,7 @@ $oldpassword =
 $password = "";
 ?>
 <?php include('../templates/header.html');   ?>
+<?php require("../config/conexion.php");?>
 <body>
     <div class="wrapper justify-content-center">
         <h2>Cambio de clave</h2>
